@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical">
-    <com.google.photohunt.widget.PinnedHeaderListView
+    <com.google.plus.samples.photohunt.widget.PinnedHeaderListView
         android:id="@+id/theme_images_view"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"

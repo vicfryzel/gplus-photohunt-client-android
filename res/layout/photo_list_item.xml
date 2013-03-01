@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dip"
+    android:focusable="false">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="3dip"
+        android:background="@drawable/shade"
+        android:rotation="180"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:orientation="horizontal"
+        android:background="#fff"
+        android:paddingLeft="2dip"
+        android:paddingTop="3dip"
+        android:paddingBottom="3dip">
+
+        <Button
+            android:id="@+id/vote_button"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_vote_selector"
+            android:textColor="#fff"
+            android:text="@string/vote"/>
+
+        <TextView
+            android:id="@+id/vote_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textSize="14sp"
+            android:paddingLeft="8dip"
+            android:textColor="#303030"
+            android:text="@string/vote_count_zero"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:ellipsize="end" 
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@+id/vote_button"
+            android:layout_alignBaseline="@+id/vote_button"/>
+        
+        <ImageButton
+            android:id="@+id/delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignTop="@+id/vote_button"
+            android:layout_gravity="right"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/trash"
+            android:contentDescription="@string/delete_photo" />
+    </RelativeLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        android:background="@android:color/white">
+        <ImageView
+            android:id="@+id/photo_item"
+            android:layout_width="match_parent"
+            android:layout_height="400dip"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/contributed_photo" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/author_image"
+            android:contentDescription="@string/author_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@android:color/black" />
+
+        <TextView
+            android:id="@+id/author_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/promote_button"
+            android:layout_gravity="center_vertical"
+            android:layout_toLeftOf="@id/promote_button"
+            android:layout_toRightOf="@+id/author_image"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingLeft="4dip"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#303030"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        
+        <Button
+            android:id="@+id/promote_button"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:text="@string/promote"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/author_image"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="3dip"
+        android:background="@drawable/shade" />
+</LinearLayout>

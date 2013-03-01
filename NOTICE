@@ -1,0 +1,17 @@
+This project uses the following third-party libraries:
+
+libs-for-android
+Author: Google Inc.
+License: Apache License, Version 2.0
+URL: http://code.google.com/p/libs-for-android/
+
+Guava
+Author: Google Inc.
+License: Apache License, Version 2.0
+URL: http://code.google.com/p/guava-libraries/
+
+Gson
+Author: Google Inc.
+License: Apache License, Version 2.0
+URL: http://code.google.com/p/google-gson/
+

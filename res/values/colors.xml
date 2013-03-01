@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="top_item">#a6c</color>
+    <color name="sticky_item">#fff</color>
+    <color name="sticky_item_text">#09c</color>
+    <color name="bottom_item">#f44</color>
+    <color name="bottom_item_alt">#c00</color>
+    <drawable name="selected_white">#77ffffff</drawable>
+    <drawable name="active_white">#33ffffff</drawable>
+
+    <color name="separator">#000</color>
+</resources>

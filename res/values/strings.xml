@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <string name="app_name">PhotoHunt</string>
+    <string name="preferences">com.photohunt.PhotoHuntPreferences</string>
+    <string name="menu_settings">Settings</string>
+    <string name="take_picture_title">Take picture</string>
+    <string name="active_theme">Go to active theme</string>
+    <string name="profile">Profile</string>
+    <string name="all_themes">All Themes</string>
+    <string name="title_activity_allthemes">Themes</string>
+    <string name="title_activity_view_image">View Image</string>
+    <string name="loading_progress">Loading…</string>
+    <string name="toast_connect_wifi">Notice: uploading images over 3g may cost you money.</string>
+    <string name="upload_success">Uploaded photo!</string>
+    <string name="upload_failure">Unable to upload photo.</string>
+    <string name="vote_count">Vote Count: %d</string>
+    <string name="vote_count_zero">Vote Count: 0</string>
+    <string name="vote_success">Voted!</string>
+    <string name="vote_share_text">Check out this image on PhotoHunt. #photohunt</string>
+    <string name="select_picture_title">Select Picture</string>
+    <string name="share">Share</string>
+    <string name="upload_menu_title">Upload</string>
+    <string name="sign_in_menu_title">Sign in</string>
+    <string name="sign_out_menu_title">Sign out</string>
+    <string name="profile_menu_title">Profile</string>
+    <string name="send_feedback_title">Send feedback</string>
+    <string name="sign_in_required">You must first sign in.</string>
+    <string name="signing_in_status">Retrieving PhotoHunt Profile</string>
+    <string name="delete_success">Deleted successfully.</string>
+    <string name="vote_share_theme_text">Check out this %s image on #photohunt.</string>
+    <string name="unknown_user">Unknown User</string>
+    <string name="delete_failure">Delete failed.</string>
+    <string name="vote_failure">Vote failed.</string>
+    <string name="refresh_menu_title">Refresh</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_about">About PhotoHunt</string>
+    <string name="about_menu_title">About</string>
+    <string name="gallery_menu_title">Gallery</string>
+    <string name="my_photos">My Photos</string>
+    <string name="photos_from_friends">Photos from Friends</string>
+    <string name="all_photos">All Photos</string>
+    <string name="dialog_select_theme">Select Theme</string>
+    <string name="change_theme_menu_title">Change Theme</string>
+    <string name="progress_message">Signing in to Google&#8230;</string>
+    <string name="author_image">Author Image</string>
+    <string name="contributed_photo">Contributed Photo</string>
+    <string name="delete_photo">Delete Photo</string>
+    <string name="vote">Vote</string>
+    <string name="promote">Promote</string>
+    <string name="version">Version:</string>
+    <string name="unknown">unknown</string>
+    <string name="play_services">Play Services:</string>
+    <string name="profile_photo">Profile Photo</string>
+    <string name="activity_summary">Activity Summary</string>
+    <string name="disconnect_menu_title">Disconnect</string>
+    <string name="disconnect_failed">Disconnect failed.</string>
+    
+</resources>
